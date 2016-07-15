@@ -11,6 +11,7 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "immutable": "^3.8.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
