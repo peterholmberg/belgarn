@@ -5,7 +5,6 @@ import rootReducer from './reducers';
 
 const createStoreWithMiddleware = compose(
    applyMiddleware(thunkMiddleware),
-   reduxReset()
 )(createStore);
 
 export default function configureStore() {
